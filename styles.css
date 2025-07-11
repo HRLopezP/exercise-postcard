@@ -1,47 +1,54 @@
-#div1 {
-	background-color: red;
-	width: 150px;
-	float: left;
-	height: 150px;
-	padding: 20px;
-}
-#div2 {
-	background-color: blue;
-	height: 100px;
-	padding: 20px;
-	color: white;
-	overflow: scroll;
+body {
+    background-color: black
 }
 
-#box1 {
-	box-sizing: content-box;
-	width: 200px;
-	height: 100px;
-	padding: 30px;
-	border: 10px solid green;
+div {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    margin: 10% auto;
+    width: 640px;
+    height: 400px;
+    background-color: white;
+    padding: 1%;
 }
 
-#box2 {
-	box-sizing: border-box;
-	width: 200px;
-	height: 100px;
-	padding: 30px;
-	border: 10px solid green;
+img {
+    width: 80px;
 }
 
-.html {
-	background-color: rgb(177, 222, 240);
-	width: 200px;
-	height: auto;
-	padding: 20px;
-	display: inline-block;
-	vertical-align: top;
+table {
+    width: 100%;
 }
-.css {
-	background-color: rgb(204, 204, 209);
-	height: auto;
-	width: auto;
-	padding: 20px;
-	display: inline-block;
-	vertical-align: top;
+
+td {
+    width: 50%;
+    vertical-align: top;
+    text-align: justify;
+}
+
+
+input {
+    width: 90%;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+}
+
+.especial {
+    text-align: right;
+    line-height: 200%;
+}
+
+a {
+    background-color: rgb(202, 197, 197);
+    text-decoration: none;
+    color: black;
+    padding: 5px;
 }

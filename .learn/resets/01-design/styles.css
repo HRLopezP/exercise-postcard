@@ -1,0 +1,47 @@
+#div1 {
+	background-color: red;
+	width: 150px;
+	float: left;
+	height: 150px;
+	padding: 20px;
+}
+#div2 {
+	background-color: blue;
+	height: 100px;
+	padding: 20px;
+	color: white;
+	overflow: scroll;
+}
+
+#box1 {
+	box-sizing: content-box;
+	width: 200px;
+	height: 100px;
+	padding: 30px;
+	border: 10px solid green;
+}
+
+#box2 {
+	box-sizing: border-box;
+	width: 200px;
+	height: 100px;
+	padding: 30px;
+	border: 10px solid green;
+}
+
+.html {
+	background-color: rgb(177, 222, 240);
+	width: 200px;
+	height: auto;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+.css {
+	background-color: rgb(204, 204, 209);
+	height: auto;
+	width: auto;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+}

@@ -1,54 +1,53 @@
 body {
-    background-color: black
+	background-color: black;
 }
 
 div {
-    font-family: "Sofadi One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 22px;
-    margin: 10% auto;
-    width: 640px;
-    height: 400px;
-    background-color: white;
-    padding: 1%;
+	font-family: "Sofadi One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	margin: 10% auto;
+	width: 640px;
+	height: 400px;
+	background-color: white;
+	padding: 1%;
 }
 
 img {
-    width: 80px;
+	width: 80px;
 }
 
 table {
-    width: 100%;
+	width: 100%;
 }
 
 td {
-    width: 50%;
-    vertical-align: top;
-    text-align: justify;
+	width: 50%;
+	vertical-align: top;
+	text-align: justify;
 }
 
-
 input {
-    width: 90%;
-    font-family: "Sofadi One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 22px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid black;
+	width: 90%;
+	font-family: "Sofadi One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid black;
 }
 
 .especial {
-    text-align: right;
-    line-height: 200%;
+	text-align: right;
+	line-height: 200%;
 }
 
 a {
-    background-color: rgb(202, 197, 197);
-    text-decoration: none;
-    color: black;
-    padding: 5px;
+	background-color: rgb(202, 197, 197);
+	text-decoration: none;
+	color: black;
+	padding: 5px;
 }
